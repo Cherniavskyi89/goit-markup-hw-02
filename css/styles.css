@@ -1,9 +1,17 @@
 :root{
-    --header-link-color:#2E2F42;
+    --header-logo-title: #2E2F42;
+    --logo-divide-bgbtn: #4D5AE5;
+    --link-hover: #404BBF;
+    --header-contacts: #434455;
+    --mainbg-title: #FFFFFF;
+    --footer-logo: #F4F4FD;
+    --footer-text: #E7E9FC;
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;   /*add size*/
+    font-size: 16px;
+    color: #434455;
+    background: #FFFFFF;
 }
 
 .list{
@@ -15,7 +23,6 @@ body {
 }
 /**----------HEADER----------*/
 .header {
-    background: #FFFFFF;
 }
 
 .header-navigation {}
@@ -27,11 +34,11 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--header-logo-title, #2E2F42);
 }
 
 .logo-divide{
-    color: #4D5AE5;
+    color: var(--logo-divide-bgbtn, #4D5AE5);
 }
 
 .header-list {}
@@ -40,46 +47,49 @@ body {
 
 .header-link {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-link-color, #2E2F42);
+    color: var(--header-logo-title, #2E2F42);
 }
 
 .header-link:hover, .header-link:focus{
-    color:#404BBF;
+    color: var(--link-hover, #404BBF);
 }
 
 .header-contacts {}
 
 .header-email {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--header-contacts, #434455);
+}
+
+.header-email:hover,
+.header-email:focus {
+    color: var(--link-hover, #404BBF);
 }
 
 .header-phone {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: var(--header-contacts, #434455);}
 
-.header-phone:hover, .header-phone:focus{
-    color: #404BBF;
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--link-hover, #404BBF);
 }
 /**----------HERO----------*/
 .hero {
-    background: #2E2F42;
+    background: var(--header-logo-title, #2E2F42);
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--mainbg-title, #FFFFFF);
 }
 
 .hero-btn {
@@ -88,42 +98,40 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--mainbg-title, #FFFFFF);
     cursor: pointer;
-    background: #4D5AE5;
+    background: var(--logo-divide-bgbtn, #4D5AE5);
 }
 .hero-btn:hover, .hero-btn:focus{
-    background: #404BBF;
+    background: var(--link-hover, #404BBF);
 }
 /**----------ABOUT----------*/
+
 .hide {
     visibility: hidden;
-    color: #FFFFFF;
+    color: var(--mainbg-title, #FFFFFF);
 }
 ..about-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+}
 
 .about-text {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 /**----------WHAT ARE WE DOING----------*/
 .product {
-    background: #FFFFFF;
 }
 
 .product-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
-
+    color: var(--header-logo-title, #2E2F42);
+}
 .product-list {}
 
 .product-item {}
@@ -138,8 +146,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
-    background: #FFFFFF;
+    color: var(--header-logo-title, #2E2F42);
 }
 
 .team-list {}
@@ -153,23 +160,21 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-    background: #FFFFFF;
+    color: var(--header-logo-title, #2E2F42);
+    background: var(--mainbg-title, #FFFFFF);
 }
 
 .team-position {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    background: #FFFFFF;
+    background: var(--mainbg-title, #FFFFFF);
 }
 
 .taem-item {}
 
 /**----------FOOTER----------*/
 .footer{
-    background: #2E2F42;
+    background: var(--header-logo-title, #2E2F42);
 }
 
 .footer-logo {
@@ -178,16 +183,16 @@ body {
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    color: var(--footer-logo, #F4F4FD);
+}
 
 .footer-divide{
-    color: #4D5AE5;
+    color: var(--logo-divide-bgbtn, #4D5AE5);
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-text, #E7E9FC);
 }
