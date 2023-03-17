@@ -111,7 +111,7 @@ body {
     visibility: hidden;
     color: var(--mainbg-title, #FFFFFF);
 }
-..about-title {
+.about-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -195,4 +195,46 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-text, #E7E9FC);
+}
+
+/**----------PORTFOLIO----------*/
+
+.filtr-list {}
+
+.filtr-item {}
+
+.filrt-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-divide-bgbtn, #4D5AE5);
+    cursor: pointer;
+    background: var(--footer-logo, #F4F4FD);
+}
+.filrt-button:hover,
+.filrt-button:focus {
+    background: var(--link-hover, #404BBF);
+    color: var(--mainbg-title, #FFFFFF0);
+}
+
+.offers {}
+
+.offers-list {}
+
+.offers-item {}
+
+.offers-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-logo-title, #2E2F42);
+}
+
+.offers-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-contacts, #434455);
 }
