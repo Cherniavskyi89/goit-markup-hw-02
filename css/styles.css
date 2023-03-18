@@ -58,6 +58,7 @@ body {
 
 .header-contacts {
     font-style: normal;
+    line-height: 1.5px;
 }
 
 .header-email {
@@ -160,7 +161,9 @@ body {
 
 .list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-name {
     font-weight: 500;
@@ -191,11 +194,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--footer-logo, #F4F4FD);
+    color: var(--logo-divide-bgbtn, #4D5AE5);
 }
 
 .footer-divide{
-    color: var(--logo-divide-bgbtn, #4D5AE5);
+    color: var(--footer-logo, #F4F4FD);
 }
 
 .footer-text {
