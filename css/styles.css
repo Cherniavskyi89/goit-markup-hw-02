@@ -70,7 +70,9 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-contact-link:hover,
+.header-contact-link:focus {
     color: var(--link-hover, #404BBF);
 }
 /**----------HERO----------*/
