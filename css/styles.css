@@ -49,7 +49,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-logo-title, #2E2F42);
+    color: var(--header-contacts, #434455;
 }
 
 .header-link:hover, 
