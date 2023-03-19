@@ -62,27 +62,15 @@ body {
     line-height: 1.5;
 }
 
-.header-email {
+.header-link {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contacts, #434455);
 }
 
-.header-email:hover,
-.header-email:focus {
-    color: var(--link-hover, #404BBF);
-}
-
-.header-phone {
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--header-contacts, #434455);
-}
-
-.header-phone:hover,
-.header-phone:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--link-hover, #404BBF);
 }
 /**----------HERO----------*/
@@ -183,7 +171,7 @@ body {
     background-color: var(--mainbg-title, #FFFFFF);
 }
 
-.taem-item {}
+.team-item {}
 
 /**----------FOOTER----------*/
 .footer{
