@@ -52,19 +52,22 @@ body {
     color: var(--header-logo-title, #2E2F42);
 }
 
-.header-link:hover, .header-link:focus{
+.header-link:hover, 
+.header-link:focus{
     color: var(--link-hover, #404BBF);
 }
 
 .header-contacts {
     font-style: normal;
-    line-height: 1.5px;
+    line-height: 1.5;
 }
 
 .header-email {
     font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contacts, #434455);
+    
 }
 
 .header-email:hover,
@@ -74,6 +77,7 @@ body {
 
 .header-phone {
     font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contacts, #434455);}
 
